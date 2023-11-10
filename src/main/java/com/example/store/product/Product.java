@@ -24,10 +24,12 @@ public class Product {
     private Integer price;
 
 
+
     public Product(ProductRequestDTO data) {
         this.image = data.image();
         this.title = data.title();
         this.price = data.price();
+
     }
 
 }
